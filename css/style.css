@@ -1,0 +1,40 @@
+html {
+    font-size: 2rem;
+}
+
+
+#Quote {
+    background-image: url(../image/textured-metal-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+#Quote img {
+    width: 10%;
+    border-radius: 50%;
+    border: 0px solid white;
+    transition: 0.2s;
+}
+
+#Quote img:hover{
+    border: 5px solid white;
+}
+#Quote .h1 {
+    font-size: 80px;
+}
+
+
+#Quote .Quote-button {
+    padding: 20px 70px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+#Quote .Quote-button:hover {
+    background-color: green;
+}
+
